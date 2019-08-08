@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{710222D3-BC8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSystems.Cities.Domain.Models", "FMSystems.Cities.Domain.Models\FMSystems.Cities.Domain.Models.csproj", "{9E5A54FE-89D1-461F-B856-D135E70BBC50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSystems.Cities.Services", "FMSystems.Cities.Services\FMSystems.Cities.Services.csproj", "{FE8D90BF-0AB3-4073-B75D-60A76764B215}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{9E5A54FE-89D1-461F-B856-D135E70BBC50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E5A54FE-89D1-461F-B856-D135E70BBC50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E5A54FE-89D1-461F-B856-D135E70BBC50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE8D90BF-0AB3-4073-B75D-60A76764B215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE8D90BF-0AB3-4073-B75D-60A76764B215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE8D90BF-0AB3-4073-B75D-60A76764B215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE8D90BF-0AB3-4073-B75D-60A76764B215}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{C4F81ADE-EEE6-4B5A-BD7A-605DE0DA74A9} = {06ADEFB6-9556-46FB-8CA9-C1891F562598}
 		{710222D3-BC8B-446D-835C-5229782253AA} = {EBEE4BA8-3880-464F-83E6-8403A33B03A3}
 		{9E5A54FE-89D1-461F-B856-D135E70BBC50} = {F18C97CA-B321-4EBD-A50F-C46EFF7FC36E}
+		{FE8D90BF-0AB3-4073-B75D-60A76764B215} = {C4F81ADE-EEE6-4B5A-BD7A-605DE0DA74A9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B89FA23-1A1E-4425-9D24-067234FAFF6B}
