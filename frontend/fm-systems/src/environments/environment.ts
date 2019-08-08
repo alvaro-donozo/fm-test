@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  serverUrl: '',
-  darkSkyKey: ''
+  serverUrl: 'http://localhost:8000/api/v1/',
+  darkSkyKey: 'd07d7f49433eaa14f183b74af7f1a80f'
 };
 
 /*
