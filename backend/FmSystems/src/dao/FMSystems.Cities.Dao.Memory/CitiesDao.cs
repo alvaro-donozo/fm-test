@@ -26,25 +26,33 @@
                 {
                     Id = Guid.Parse("573f0e0c-7987-420a-b885-346cbf2972ab"),
                     Name = "Phoenix",
-                    State = "AZ"
+                    State = "AZ",
+                    Latitude = 33.448376,
+                    Longitude = -112.074036
                 },
                 new City
                 {
                     Id = Guid.Parse("fe55d066-e1db-4996-8038-0a517536066b"),
                     Name = "Raleigh",
-                    State = "NC"
+                    State = "NC",
+                    Latitude = 35.779591,
+                    Longitude = -78.638176
                 },
                 new City
                 {
                     Id = Guid.Parse("04b1b89d-297d-4cad-aa1b-ad2b96cef5c9"),
                     Name = "Saint John",
-                    State = "NB"
+                    State = "NB",
+                    Latitude = 45.272812,
+                    Longitude = -66.063026
                 },
                 new City
                 {
                     Id = Guid.Parse("2666a649-900a-4e9b-9739-431858a68916"),
                     Name = "San Diego",
-                    State = "CA"
+                    State = "CA",
+                    Latitude = 32.715736,
+                    Longitude = -117.161087
                 }
             };
         }

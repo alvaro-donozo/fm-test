@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\dao\FMSystems.Cities.Dao.Memory\FMSystems.Cities.Dao.Memory.csproj" />
+    <ProjectReference Include="..\..\..\dao\FMSystems.Cities.Dao\FMSystems.Cities.Dao.csproj" />
     <ProjectReference Include="..\FMSystems.Cities.Services.Stub\FMSystems.Cities.Services.Stub.csproj" />
   </ItemGroup>
 
