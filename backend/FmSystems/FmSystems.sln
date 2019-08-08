@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dao", "dao", "{A6F3DE87-1EA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSystems.Cities.Rest.Server", "api\FMSystems.Cities.Rest.Server\FMSystems.Cities.Rest.Server.csproj", "{CF1E2B1D-8BD6-4418-84FC-B856B8B6C92A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSystems.Cities.Rest.Api", "api\FMSystems.Cities.Rest.Api\FMSystems.Cities.Rest.Api.csproj", "{2A0097FC-BAAD-4D91-AF87-C28B3DEFF880}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{CF1E2B1D-8BD6-4418-84FC-B856B8B6C92A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF1E2B1D-8BD6-4418-84FC-B856B8B6C92A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF1E2B1D-8BD6-4418-84FC-B856B8B6C92A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A0097FC-BAAD-4D91-AF87-C28B3DEFF880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A0097FC-BAAD-4D91-AF87-C28B3DEFF880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A0097FC-BAAD-4D91-AF87-C28B3DEFF880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A0097FC-BAAD-4D91-AF87-C28B3DEFF880}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 		{06ADEFB6-9556-46FB-8CA9-C1891F562598} = {B92D5930-1A6A-42F2-8854-B92F67318EF6}
 		{A6F3DE87-1EAD-4F08-B6A6-D772CED8CD1D} = {B92D5930-1A6A-42F2-8854-B92F67318EF6}
 		{CF1E2B1D-8BD6-4418-84FC-B856B8B6C92A} = {00BF637A-F341-4A1B-9D78-51D3D6CD991B}
+		{2A0097FC-BAAD-4D91-AF87-C28B3DEFF880} = {00BF637A-F341-4A1B-9D78-51D3D6CD991B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B89FA23-1A1E-4425-9D24-067234FAFF6B}
