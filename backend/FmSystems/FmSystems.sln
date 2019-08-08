@@ -11,9 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{06ADEFB6-9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dao", "dao", "{A6F3DE87-1EAD-4F08-B6A6-D772CED8CD1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSystems.Cities.Rest.Server", "api\FMSystems.Cities.Rest.Server\FMSystems.Cities.Rest.Server.csproj", "{CF1E2B1D-8BD6-4418-84FC-B856B8B6C92A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSystems.Cities.Rest.Server", "src\api\FMSystems.Cities.Rest.Server\FMSystems.Cities.Rest.Server.csproj", "{CF1E2B1D-8BD6-4418-84FC-B856B8B6C92A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSystems.Cities.Rest.Api", "api\FMSystems.Cities.Rest.Api\FMSystems.Cities.Rest.Api.csproj", "{2A0097FC-BAAD-4D91-AF87-C28B3DEFF880}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSystems.Cities.Rest.Api", "src\api\FMSystems.Cities.Rest.Api\FMSystems.Cities.Rest.Api.csproj", "{2A0097FC-BAAD-4D91-AF87-C28B3DEFF880}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domain", "domain", "{F18C97CA-B321-4EBD-A50F-C46EFF7FC36E}"
 EndProject
@@ -23,17 +23,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{EBEE4BA8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{710222D3-BC8B-446D-835C-5229782253AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSystems.Cities.Domain.Models", "FMSystems.Cities.Domain.Models\FMSystems.Cities.Domain.Models.csproj", "{9E5A54FE-89D1-461F-B856-D135E70BBC50}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSystems.Cities.Domain.Models", "src\core\domain\FMSystems.Cities.Domain.Models\FMSystems.Cities.Domain.Models.csproj", "{9E5A54FE-89D1-461F-B856-D135E70BBC50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSystems.Cities.Services", "FMSystems.Cities.Services\FMSystems.Cities.Services.csproj", "{FE8D90BF-0AB3-4073-B75D-60A76764B215}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSystems.Cities.Services", "src\core\services\FMSystems.Cities.Services\FMSystems.Cities.Services.csproj", "{FE8D90BF-0AB3-4073-B75D-60A76764B215}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSystems.Cities.Services.Impl", "FMSystems.Cities.Services.Impl\FMSystems.Cities.Services.Impl.csproj", "{9A605C78-AFCC-4DBE-9FDE-2B12C1FB4880}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSystems.Cities.Services.Impl", "src\core\services\FMSystems.Cities.Services.Impl\FMSystems.Cities.Services.Impl.csproj", "{9A605C78-AFCC-4DBE-9FDE-2B12C1FB4880}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSystems.Cities.Services.Stub", "FMSystems.Cities.Services.Stub\FMSystems.Cities.Services.Stub.csproj", "{3BF1AB40-E6E7-47CB-AA05-CBA75AA227AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSystems.Cities.Services.Stub", "src\core\services\FMSystems.Cities.Services.Stub\FMSystems.Cities.Services.Stub.csproj", "{3BF1AB40-E6E7-47CB-AA05-CBA75AA227AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSystems.Cities.Dao", "FMSystems.Cities.Dao\FMSystems.Cities.Dao.csproj", "{4D0DC15C-CE12-48D7-8889-8AB54B72C95A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSystems.Cities.Dao", "src\dao\FMSystems.Cities.Dao\FMSystems.Cities.Dao.csproj", "{4D0DC15C-CE12-48D7-8889-8AB54B72C95A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSystems.Cities.Dao.Memory", "FMSystems.Cities.Dao.Memory\FMSystems.Cities.Dao.Memory.csproj", "{20B8DFDA-C958-4E14-AE2E-2902FAED9A86}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSystems.Cities.Dao.Memory", "src\dao\FMSystems.Cities.Dao.Memory\FMSystems.Cities.Dao.Memory.csproj", "{20B8DFDA-C958-4E14-AE2E-2902FAED9A86}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSystems.Cities.Rest.Api.Tests", "tests\api\FMSystems.Cities.Rest.Api.Tests\FMSystems.Cities.Rest.Api.Tests.csproj", "{B693DB54-665B-4DBA-909A-5140192C6364}"
 EndProject
