@@ -4,13 +4,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "app",
+      "fm-systems-cities",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "app",
+      "fm-systems-cities",
       "kebab-case"
     ]
   }
