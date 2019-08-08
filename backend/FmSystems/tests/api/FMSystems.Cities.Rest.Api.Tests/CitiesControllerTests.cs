@@ -3,6 +3,7 @@ namespace FMSystems.Cities.Rest.Api.Tests
     using FMSystems.Cities.Rest.Api.Controllers;
     using FMSystems.Cities.Services.Stub;
     using Microsoft.AspNetCore.Http;
+    using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Infrastructure;
     using Xunit;
 
@@ -21,6 +22,13 @@ namespace FMSystems.Cities.Rest.Api.Tests
             var actual = this.controller.GetCities().Result as IStatusCodeActionResult;
             var expected = StatusCodes.Status200OK;
             Assert.Equal(expected, actual.StatusCode);
+        }
+
+        [Fact]
+        public void TestGetCities_ReturnsNonNullObject()
+        {
+            var actual = this.controller.GetCities().Result as ObjectResult;
+            Assert.NotNull(actual);
         }
     }
 }
