@@ -1,3 +1,8 @@
-<p>
-  cities works!
-</p>
+<label>
+  Please select a city:
+  <select>
+    <option *ngFor="let city of cities | async">
+      {{ city.name }}
+    </option>
+  </select>
+</label>
