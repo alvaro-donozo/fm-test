@@ -1,6 +1,7 @@
 ﻿namespace FMSystems.Cities.Rest.Server
 {
     using System;
+    using System.Configuration;
 
     public class Program
     {
@@ -8,7 +9,7 @@
         {
             try
             {
-                var url = "http://localhost:8000";
+                var url = ConfigurationManager.AppSettings["serviceUrl"];
                 Server.RunServer(url);
             }
             catch(Exception e)
