@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FMSystems.Cities.Services.Stub\FMSystems.Cities.Services.Stub.csproj" />
+  </ItemGroup>
+
 </Project>
