@@ -2,12 +2,14 @@
   <label>
     Please select a city:
     <select (change)="getForecast($event)">
-      <option *ngFor="let city of cities | async" [value]="city">
+      <option *ngFor="let city of cities" [value]="city.id">
         {{ city.name }}
       </option>
     </select>
   </label>
 </div>
 <div *ngIf="forecast">
-  {{ forecast | async |json }}
+  <p>Summary: {{ forecast.hourly.summary }}</p>
+  <p>Temperature: {{ forecast.hourly.data[0].temperature }}</p>
+  <p>UV Index: {{ forecast.hourly.data[0].uvIndex }}</p>
 </div>

@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CitiesService } from './services/cities.service';
 import { City } from '../core/models/city';
-import { Observable } from 'rxjs';
 
 @Component({
   selector: 'fm-systems-cities',
@@ -9,17 +8,20 @@ import { Observable } from 'rxjs';
   styleUrls: ['./cities.component.scss']
 })
 export class CitiesComponent implements OnInit {
-  cities: Observable<City[]>;
-  forecast: Observable<any>;
+  cities: City[];
+  forecast: any;
 
   constructor(private service: CitiesService) { }
 
   ngOnInit() {
-    this.cities = this.service.getCities();
+    this.service.getCities()
+      .subscribe(cities => this.cities = cities);
   }
 
   public getForecast(event: any): void {
-    const city = event.target.value;
-    this.forecast = this.service.getForecast(city);
+    const cityId = event.target.value;
+    const city = this.cities.find(cityFound => cityFound.id === cityId);
+    this.service.getForecast(city)
+      .subscribe(data => this.forecast = data);
   }
 }
