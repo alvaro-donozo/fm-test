@@ -8,7 +8,7 @@
 
     [ApiController]
     [Route("api/v1/")]
-    public class CitiesController : ControllerBase
+    public class CitiesController : AbstractController
     {
         private ICitiesService citiesService;
 
@@ -21,8 +21,7 @@
         [HttpGet]
         public ActionResult<IList<City>> GetCities()
         {
-            var cities = this.citiesService.GetCities();
-            return this.StatusCode(StatusCodes.Status200OK, cities);
+            return this.ExecuteRequest<IList<City>>(() => this.citiesService.GetCities(), StatusCodes.Status200OK);
         }
     }
 }
