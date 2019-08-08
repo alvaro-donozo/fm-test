@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Formatters.Json" Version="2.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\core\services\FMSystems.Cities.Services.Impl\FMSystems.Cities.Services.Impl.csproj" />
+    <ProjectReference Include="..\..\core\services\FMSystems.Cities.Services\FMSystems.Cities.Services.csproj" />
+  </ItemGroup>
+
 </Project>
