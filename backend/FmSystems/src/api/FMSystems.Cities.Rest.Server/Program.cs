@@ -6,7 +6,15 @@
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            try
+            {
+                var url = "http://localhost:8000";
+                Server.RunServer(url);
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine($"There is a problem with the server: ", e);
+            }
         }
     }
 }
