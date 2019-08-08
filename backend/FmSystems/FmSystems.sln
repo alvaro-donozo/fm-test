@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B92D5930-1A6A-42F2-8854-B92F67318EF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{00BF637A-F341-4A1B-9D78-51D3D6CD991B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{06ADEFB6-9556-46FB-8CA9-C1891F562598}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dao", "dao", "{A6F3DE87-1EAD-4F08-B6A6-D772CED8CD1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSystems.Cities.Rest.Server", "api\FMSystems.Cities.Rest.Server\FMSystems.Cities.Rest.Server.csproj", "{CF1E2B1D-8BD6-4418-84FC-B856B8B6C92A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF1E2B1D-8BD6-4418-84FC-B856B8B6C92A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF1E2B1D-8BD6-4418-84FC-B856B8B6C92A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF1E2B1D-8BD6-4418-84FC-B856B8B6C92A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF1E2B1D-8BD6-4418-84FC-B856B8B6C92A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00BF637A-F341-4A1B-9D78-51D3D6CD991B} = {B92D5930-1A6A-42F2-8854-B92F67318EF6}
+		{06ADEFB6-9556-46FB-8CA9-C1891F562598} = {B92D5930-1A6A-42F2-8854-B92F67318EF6}
+		{A6F3DE87-1EAD-4F08-B6A6-D772CED8CD1D} = {B92D5930-1A6A-42F2-8854-B92F67318EF6}
+		{CF1E2B1D-8BD6-4418-84FC-B856B8B6C92A} = {00BF637A-F341-4A1B-9D78-51D3D6CD991B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B89FA23-1A1E-4425-9D24-067234FAFF6B}
+	EndGlobalSection
+EndGlobal
