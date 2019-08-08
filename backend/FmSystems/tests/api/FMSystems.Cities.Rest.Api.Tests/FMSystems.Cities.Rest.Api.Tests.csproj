@@ -12,4 +12,8 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\api\FMSystems.Cities.Rest.Api\FMSystems.Cities.Rest.Api.csproj" />
+  </ItemGroup>
+
 </Project>
