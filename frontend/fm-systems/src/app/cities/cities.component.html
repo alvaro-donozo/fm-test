@@ -1,8 +1,13 @@
-<label>
-  Please select a city:
-  <select>
-    <option *ngFor="let city of cities | async">
-      {{ city.name }}
-    </option>
-  </select>
-</label>
+<div>
+  <label>
+    Please select a city:
+    <select (change)="getForecast($event)">
+      <option *ngFor="let city of cities | async" [value]="city">
+        {{ city.name }}
+      </option>
+    </select>
+  </label>
+</div>
+<div *ngIf="forecast">
+  {{ forecast | async |json }}
+</div>

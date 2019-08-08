@@ -10,6 +10,7 @@ import { Observable } from 'rxjs';
 })
 export class CitiesComponent implements OnInit {
   cities: Observable<City[]>;
+  forecast: Observable<any>;
 
   constructor(private service: CitiesService) { }
 
@@ -17,4 +18,8 @@ export class CitiesComponent implements OnInit {
     this.cities = this.service.getCities();
   }
 
+  public getForecast(event: any): void {
+    const city = event.target.value;
+    this.forecast = this.service.getForecast(city);
+  }
 }
